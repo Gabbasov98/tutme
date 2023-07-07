@@ -114,10 +114,9 @@
   overflow: hidden;
 }
 .audit-offer._stage1 .audit-offer__btn::before {
-  -webkit-transform: rotate(0deg) scale(20) !important;
-          transform: rotate(0deg) scale(20) !important;
-  top: -30px;
-  left: -30px;
+  -webkit-transform: rotate(0deg) !important;
+          transform: rotate(0deg) !important;
+  border-radius: 0 !important;
 }
 .audit-offer._stage2 .audit-offer__text {
   pointer-events: unset;

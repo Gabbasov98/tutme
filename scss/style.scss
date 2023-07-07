@@ -95,10 +95,10 @@
             // background: #6EB644;
         }
         .audit-offer__btn::before {
-            transform: rotate(0deg) scale(20) !important;
-            // border-radius: 0 !important;
-            top: -30px;
-            left: -30px;
+            transform: rotate(0deg) !important;
+            border-radius: 0 !important;
+            // top: -30px;
+            // left: -30px;
         }
     }
     &._stage2 {
