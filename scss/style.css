@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.audit-offer {
+  position: fixed;
+  top: 230px;
+  right: 10px;
+  width: 37px; }
+
+.audit-offer__btn {
+  width: 37px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #6EB644;
+  border: none;
+  padding: 0; }
+
+.audit-offer__btn:hover {
+  cursor: pointer; }
+
+.audit-offer__btn svg {
+  width: 24px;
+  height: auto; }
+
+/*# sourceMappingURL=style.css.map */

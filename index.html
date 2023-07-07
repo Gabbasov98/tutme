@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="audit-offer">
+        <div class="audit-offer__inner">
+            <div class="audit-offer__btn-wrap">
+                <button class="audit-offer__btn">
+                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.5 9.5L11.5 13.5L9.5 11.5M20.5 6.69995V10.6648C20.5 17.2331 15.5319 20.1778 13.4258 21.1312C13.2025 21.2322 13.0916 21.2828 12.8389 21.3262C12.6795 21.3536 12.3213 21.3536 12.1619 21.3262C11.9092 21.2828 11.7972 21.2322 11.574 21.1312C9.4678 20.1778 4.5 17.2331 4.5 10.6648V6.69995C4.5 5.57985 4.5 5.01986 4.71799 4.59204C4.90973 4.21572 5.21547 3.90973 5.5918 3.71799C6.01962 3.5 6.58009 3.5 7.7002 3.5H17.3002C18.4203 3.5 18.98 3.5 19.4078 3.71799C19.7841 3.90973 20.0905 4.21572 20.2822 4.59204C20.5002 5.01986 20.5 5.57985 20.5 6.69995Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="audit-offer__text">
+                <div class="audit-offer__text-wrap">
+                    <span>Безопасность и аудит</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="drop-container">
+        <div class="drop"></div>
+    </div>
+
+    <script>
+        let auditOffer = document.querySelector(".audit-offer")
+        console.log(auditOffer);
+        setTimeout(() => {
+            auditOffer.classList.add("_stage1")
+            setTimeout(() => {
+                auditOffer.classList.add("_stage2")
+                setTimeout(() => {
+                    auditOffer.classList.add("_stage3")
+                    setTimeout(() => {
+                        auditOffer.classList.add("_stage4")
+                    }, 3000)
+                }, 5000)
+            }, 1000)
+        }, 4000)
+    </script>
+</body>
+
+</html>
