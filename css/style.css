@@ -67,7 +67,6 @@
 }
 .audit-offer__btn:hover {
   cursor: pointer;
-  background: #589136;
 }
 .audit-offer__btn-wrap {
   width: 37px;
@@ -81,8 +80,8 @@
   left: 0;
   margin-top: 1px;
   font-size: 14px;
+  letter-spacing: 1.4px;
   font-weight: 700;
-  text-transform: uppercase;
   padding: 10px;
   color: #fff;
   opacity: 0;
