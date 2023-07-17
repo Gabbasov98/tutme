@@ -7,12 +7,20 @@
           box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.ttf") format("ttf"), url("../fonts/Gilroy-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 .audit-offer {
   position: fixed;
   top: 230px;
   right: 0;
   padding-right: 10px;
   cursor: pointer;
+  font-family: 'Gilroy', sans-serif;
 }
 .audit-offer__btn {
   position: absolute;
@@ -116,7 +124,6 @@
 .audit-offer._stage1 .audit-offer__btn::before {
   -webkit-transform: rotate(0deg) !important;
           transform: rotate(0deg) !important;
-  border-radius: 0 !important;
 }
 .audit-offer._stage2 .audit-offer__text {
   pointer-events: unset;
